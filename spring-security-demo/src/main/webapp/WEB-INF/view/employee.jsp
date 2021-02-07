@@ -3,17 +3,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Home Page</title>
 </head>
 <body>
-
-	<h1>Home</h1>
+	<h1>Welcome To Patel Parts Employee</h1>
 	<form:form action="${pageContext.request.contextPath}/logout"
 		method="POST">
 
-		<input type="submit" value=" Logout">
-
+		<input type="submit" value="Logout">
 	</form:form>
+
 
 </body>
 </html>

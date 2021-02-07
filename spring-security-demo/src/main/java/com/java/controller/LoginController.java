@@ -16,4 +16,12 @@ public class LoginController {
 	public String showHomeLoginPage() {
 		return "home-page";
 	}
+	@PostMapping("/logout")
+	public String showHomeLogOutPage() {
+		return "login-page";
+	}
+	@GetMapping("/access-handling-page")
+	public String accessDeniedPage() {
+		return "funy-access-denied-page";
+	}
 }

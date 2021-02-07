@@ -1,5 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@ taglib prefix ="c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%-- <%@ taglib prefix ="c" uri = "http://java.sun.com/jsp/jstl/core" %> --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,11 +8,11 @@
 </head>
 <body>
 	<h1>Welcome To Patel Parts</h1>
-	<form:form action="${pageContext.request.contextPath}homePage"
+	<form:form action="${pageContext.request.contextPath}/homePage"
 		method="POST">
-		<c:if test="${param.error!=null}">
-		<h1>Sorry Passowrd Wrong</h1>
-		</c:if>
+<%-- 		<c:if test="${param.error!=null}"> --%>
+<!-- 		<h1>Sorry Passowrd Wrong</h1> -->
+<%-- 		</c:if> --%>
 		
 		
 		<p>
