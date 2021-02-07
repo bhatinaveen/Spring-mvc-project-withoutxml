@@ -8,12 +8,12 @@
 </head>
 <body>
 <hr>
-<p>
-User : <security:authentication property="principal.username"/>
-<br><br>
-Role(s) :<security:authentication property="principal.authorities"/>
+<!-- <p> -->
+<%-- User : <security:authentication property="principal.username"/> --%>
+<!-- <br><br> -->
+<%-- Role(s) :<security:authentication property="principal.authorities"/> --%>
 
-</p>
+<!-- </p> -->
 
 	<h1>Home</h1>
 	<form:form action="${pageContext.request.contextPath}/logout"

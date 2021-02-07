@@ -9,13 +9,13 @@
 </head>
 <body>
 	<hr>
-	<p>
-		User :
-		<security:authentication property="principal.username" />
-		<br> <br> Role(s) :
-		<security:authentication property="principal.authorities" />
-	<hr>
-	<p>
+<!-- 	<p> -->
+<!-- 		User : -->
+<%-- 		<security:authentication property="principal.username" /> --%>
+<!-- 		<br> <br> Role(s) : -->
+<%-- 		<security:authentication property="principal.authorities" /> --%>
+<!-- 	<hr> -->
+<!-- 	<p> -->
 		<a href="${pageContext.request.contextPath}/employee">Employee</a>
 	</p>
 
